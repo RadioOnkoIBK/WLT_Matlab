@@ -1,0 +1,168 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\q236sk\MatLab\01_WLT\WLT.prj" location="C:\Users\q236sk\MatLab\01_WLT" name="WLT" preferred-package-location="C:\Users\q236sk\MatLab\01_WLT\WLT\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>WLT</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Kollotzek, Simmer</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>Winston-LutzTest for IBK Radiooncology</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\test.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\WLT\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes>Installation Notes for WLT
+System Requirements
+Operating System: Windows 10 or later / macOS [specify version] / Linux [specify distribution]
+[Any other specific hardware or software requirements, if applicable]
+Installation Steps
+MATLAB Runtime Installation:
+
+WLT requires MATLAB Runtime to be installed on your system.
+Download MATLAB Runtime from this link. Ensure you download the version compatible with WLT.
+Run the MATLAB Runtime installer and follow the on-screen instructions.
+WLT Application Installation:
+
+Download the WLT installation package.
+Unzip the downloaded package to your preferred location.
+In the unzipped folder, find the executable file named WLT.exe for Windows (or a similar file for macOS/Linux).
+Running WLT:
+
+To start WLT, double-click the WLT.exe file.
+[Include any additional instructions for initial setup or login requirements.]
+First Time Setup
+[Include any specific instructions or configurations needed for the first-time setup, if any.]
+Troubleshooting
+MATLAB Runtime Compatibility: Ensure the MATLAB Runtime version corresponds to the one used for compiling WLT.
+Administrator Rights: You might need administrative rights to install MATLAB Runtime and WLT.
+Firewall/Antivirus Settings: In some cases, your firewall or antivirus software may need to be configured to allow WLT to run.
+Technical Support: For any technical issues, please contact [Support Email/Phone].</param.install.notes>
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\WLT\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\WLT\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\WLT\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\WLT</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\UserGuideApp.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\AAA_function_test.m</file>
+      <file>${PROJECT_ROOT}\HIS_Import.m</file>
+      <file>${PROJECT_ROOT}\matlabtest.m</file>
+      <file>${PROJECT_ROOT}\readHISfile.m</file>
+      <file>${PROJECT_ROOT}\test.png</file>
+      <file>${PROJECT_ROOT}\UserGuideApp.m</file>
+      <file>${PROJECT_ROOT}\UserManagementApp.m</file>
+      <file>${PROJECT_ROOT}\WLT_00_main.m</file>
+      <file>${PROJECT_ROOT}\WLT_01_path.m</file>
+      <file>${PROJECT_ROOT}\WLT_02_file_count.m</file>
+      <file>${PROJECT_ROOT}\WLT_03_input.m</file>
+      <file>${PROJECT_ROOT}\WLT_04_01_load_img.m</file>
+      <file>${PROJECT_ROOT}\WLT_04_image_process.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\WLT\for_testing" name="readme.txt" optional="true">C:\Users\q236sk\MatLab\01_WLT\WLT\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\WLT\for_testing" name="splash.png" optional="false">C:\Users\q236sk\MatLab\01_WLT\WLT\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\WLT\for_testing" name="WLT.exe" optional="false">C:\Users\q236sk\MatLab\01_WLT\WLT\for_testing\WLT.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
